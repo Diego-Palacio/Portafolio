@@ -85,17 +85,17 @@ h1{
 }
 
 .contenedor-fotocv{
-    display:flex;
-    margin:auto;
-    background: white;
-    width: 400px;
-    height: 400px;
-    border-radius: 100%;
-    background-image: url("diegocv.jpeg");
-    background-repeat: no-repeat;
-    background-position: 58%;
-    background-size: 660px;
-}
+            display:flex;
+            margin:auto;
+            background: white;
+            width: 400px;
+            height: 400px;
+            border-radius: 100%;
+            background-image: url("diegocv.jpeg");
+            background-repeat: no-repeat;
+            background-position: 58%;
+            background-size: 660px;
+        }
 
 
 
