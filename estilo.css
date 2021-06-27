@@ -38,7 +38,8 @@ padding-top: 200px;
 }   
 
 h1{
-    color:rgb(201, 193, 193);
+   /* color:rgb(201, 193, 193);*/
+   color:white;
 }
 .contenedor img{
     display:flex;
@@ -64,7 +65,6 @@ h1{
  }
  .contenedor button:hover{
     background-color:  #59598d;
- 
  }
 
  span{
@@ -75,7 +75,6 @@ h1{
     height: 25%;
  }
 
- 
  .contenedor_sobremi2{
    height: 25%;
 }
@@ -94,7 +93,8 @@ h1{
             background-image: url("diegocv.jpeg");
             background-repeat: no-repeat;
             background-position: 58%;
-            background-size: 660px;
+            background-position-y: bottom;
+            background-size: 580px;
         }
 
 
