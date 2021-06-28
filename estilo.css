@@ -23,7 +23,8 @@ ul a:hover{
 }
 
 nav{
-background: #343763;
+background: #0c102e;
+border-bottom: 1px solid #1f236d;;
 width: 100%;
 position: fixed;
  }
