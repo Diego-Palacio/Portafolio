@@ -50,15 +50,6 @@ padding-top: 60px;
    
 }
 
-@keyframes aparecer{
-    0%{
-        margin-right: 0%;
-    }
-    50%{
-        margin-right: 35.3%;
-    }
-
-}
 
 
 .contenedor .info{
@@ -90,7 +81,7 @@ padding-top: 60px;
 
  
  .contenedor_sobremi{
-    height: 25%;
+    height: 200px
  }
 /*
  .contenedor_sobremi2{
@@ -114,11 +105,21 @@ padding-top: 60px;
             background-position: 62%;
             background-position-y: bottom;
             background-size: 580px;
-            animation: aparecer 2s;
         }
 
 
 
 @media screen and (max-width:800px) {
     body{ background-color:  #dfe0eb; }  
+}
+
+.perfilProfesional{
+    text-align: center;
+    color:white;
+    
+    display:flex;
+    flex-direction: column;
+    margin:  50% auto ;
+    justify-content: center;
+    align-items: center;
 }
