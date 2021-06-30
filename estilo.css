@@ -111,6 +111,23 @@ padding-top: 60px;
 
 @media screen and (max-width:800px) {
     body{ background-color:  #dfe0eb; }  
+
+    /*Se achicha el tamaño de foto y se cambia posicion*/
+    .contenedor-fotocv {
+        display: flex;
+        margin: auto;
+        background: white;
+        width: 200px;
+        height: 200px;
+        border-radius: 100%;
+        background-image: url(diegocv.jpeg);
+        background-repeat: no-repeat;
+        background-position: 58%;
+        background-size: 400px;
+    }
+
+
+
 }
 
 .perfilProfesional{
