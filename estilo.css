@@ -7,31 +7,50 @@ body{
      background-color:  #141635;
 }
 
+.contenedor-fotocv {
+    display: flex;
+    margin: auto;
+    background: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    background-image: url(diegocv.jpeg);
+    background-repeat: no-repeat;
+    background-position: 58%;
+    background-size: 500px;
+}
+
 .menu{
-    display: none;
+    display:block;
+    background:#0c102e; 
+    width: 100%;
+    font-size: 26px;
+    padding: 10px;
 }
 
-ul a{
- outline: none;
- text-decoration:none;
- padding:10px;
- text-align: center;
-float:right;
-color:white;
-font-size: 26px;
-}
 
-ul a:hover{
-    text-decoration :2px underline white;
-    text-underline-position: under;
+.menuicon{
+    width: 40px;
+    height: 40px;
 }
 
 nav{
-background: #0c102e;
-border-bottom: 1px solid #1f236d;;
-width: 100%;
-position: fixed;
- }
+    background: #0c102e;
+    border-bottom: 1px solid #1f236d;
+    border-right: 1px solid #1f236d;;
+    width: 20%;
+    position: fixed;
+   
+     }
+ul a{
+        outline: none;
+        text-decoration:none;
+        padding:10px;
+        text-align: center;
+        float: left;
+        color:white;
+        font-size: 26px;
+       }
 
 .contenedor{
  /* border:4px solid red;*/
@@ -53,8 +72,6 @@ padding-top: 60px;
     margin-bottom: 20px;
    
 }
-
-
 
 .contenedor .info{
     text-align: center;
@@ -97,6 +114,22 @@ padding-top: 60px;
     height: 50%;
 }
 
+
+.perfilProfesional{
+     text-align: center;
+     color:white;
+            
+     display:flex;
+     flex-direction: column;
+     margin:  50% auto ;
+     justify-content: center;
+     align-items: center;
+}
+
+
+
+@media screen and (min-width:800px) {
+   
 .contenedor-fotocv{
             display:flex;
             margin:auto;
@@ -112,69 +145,35 @@ padding-top: 60px;
         }
 
 
-
-@media screen and (max-width:800px) {
-    body{  background-color:  #141635; }  
-
-    /*Se achicha el tamaño de foto y se cambia posicion*/
-    .contenedor-fotocv {
-        display: flex;
-        margin: auto;
-        background: white;
-        width: 200px;
-        height: 200px;
-        border-radius: 100%;
-        background-image: url(diegocv.jpeg);
-        background-repeat: no-repeat;
-        background-position: 58%;
-        background-size: 400px;
-    }
-
-
-    /*Se cambia el diseño del nav para dispositivos moviles*/
-    .menu{
-        display:block;
-        background:#0c102e; 
-        width: 100%;
-        font-size: 26px;
-        padding: 10px;
-    }
-
-    nav{
-        display: none;
-    }
-
-    .menuicon{
-        width: 40px;
-        height: 40px;
-    }
-    
-    nav{
-        background: #0c102e;
-        border-bottom: 1px solid #1f236d;
-        border-right: 1px solid #1f236d;;
-        width: 20%;
-        position: fixed;
-         }
-   ul a{
-            outline: none;
-            text-decoration:none;
-            padding:10px;
-            text-align: center;
-            float: left;
-            color:white;
-            font-size: 26px;
-           }
-
+.menu{
+    display: none;
 }
 
-.perfilProfesional{
-    text-align: center;
-    color:white;
-    
-    display:flex;
-    flex-direction: column;
-    margin:  50% auto ;
-    justify-content: center;
-    align-items: center;
+
+ul a{
+ outline: none;
+ text-decoration:none;
+ padding:10px;
+ text-align: center;
+float:right;
+color:white;
+font-size: 26px;
 }
+
+ul a:hover{
+    text-decoration :2px underline white;
+    text-underline-position: under;
+}
+
+nav{
+background: #0c102e;
+border-bottom: 1px solid #1f236d;;
+width: 100%;
+position: fixed;
+
+ }
+
+ 
+}
+
+
