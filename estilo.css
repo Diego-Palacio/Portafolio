@@ -11,13 +11,13 @@ body{
     display: flex;
     margin: auto;
     background: white;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
     background-image: url(diegocv.jpeg);
     background-repeat: no-repeat;
     background-position: 58%;
-    background-size: 250px;
+    background-size: 320px;
 }
 
 .menu{
@@ -29,12 +29,13 @@ body{
     position: fixed;
 }
 
-
 .menuicon{
     width: 40px;
     height: 40px;
     float: right;
+    padding-right: 10px;
 }
+
 
 nav{
     background: #0c102e;
@@ -63,7 +64,7 @@ padding-top: 60px;
 }   
 
 .nombre{
-    font-size: 50px;
+    font-size: 30px;
    color:white;
    font-style:oblique;
    
@@ -82,8 +83,8 @@ padding-top: 60px;
 }
 
 .gitlab ,.linkedin{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 .contenedor button{
     width: 160px;
@@ -92,6 +93,7 @@ padding-top: 60px;
     background-color:  #343763;
     border:none;
     color:white;
+    margin-top: 10px;
     
   
  }
@@ -174,6 +176,14 @@ width: 100%;
 position: fixed;
 
  }
+
+
+ .nombre{
+    font-size: 50px;
+   color:white;
+   font-style:oblique;
+   
+}
 
  
 }
