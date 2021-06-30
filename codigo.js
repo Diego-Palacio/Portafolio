@@ -10,3 +10,20 @@ setTimeout(escribirNombre,speed);
 }
 
 escribirNombre();
+
+
+
+desplegarMenu =()=>{
+
+  
+    const menu= document.getElementById("menujs");
+  
+    menu.click(function(){
+        nav.toogle();
+        alert("s")
+    })
+
+
+
+}
+
