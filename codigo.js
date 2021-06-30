@@ -19,11 +19,11 @@ desplegarMenu =()=>{
     const nav= document.getElementById("nav");
 
 if(!estado){
-     nav.style.marginLeft="-200px";
+     nav.style.marginLeft="0px";
      estado=true;
 }
 else{
-    nav.style.marginLeft="0px";
+    nav.style.marginLeft="-200px";
     estado=false;
 }
 

@@ -43,6 +43,7 @@ nav{
     border-right: 1px solid #1f236d;;
     width: 40%;
     position: absolute;
+    margin-left: -100%;
    
      }
 ul a{
@@ -64,7 +65,7 @@ padding-top: 60px;
 }   
 
 .nombre{
-    font-size: 30px;
+    font-size: 36px;
    color:white;
    font-style:oblique;
    
