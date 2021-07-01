@@ -44,6 +44,7 @@ nav{
     width: 40%;
     position: absolute;
     margin-left: -100%;
+    position: fixed;
    
      }
 ul a{
@@ -175,6 +176,7 @@ background: #0c102e;
 border-bottom: 1px solid #1f236d;;
 width: 100%;
 position: fixed;
+margin: 0px;
 
  }
 

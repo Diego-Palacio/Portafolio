@@ -1,5 +1,5 @@
 
-
+/* Funcion para ir escrbiendo mi nombre letra por letra*/
 let i=0;
 const speed=80;
 const nombre="Diego Nahuel Palacio";
@@ -12,7 +12,7 @@ setTimeout(escribirNombre,speed);
 
 escribirNombre();
 
-
+/*Funcion para que al apretar en el icono de menu se despliege los submenu*/
 let estado=false;
 desplegarMenu =()=>{
  
@@ -27,8 +27,6 @@ else{
     estado=false;
 }
 
-   
-    
 }
 
 
