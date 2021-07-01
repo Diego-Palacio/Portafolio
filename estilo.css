@@ -45,7 +45,7 @@ nav{
     position: absolute;
     margin-left: -100%;
     position: fixed;
-   
+
      }
 ul a{
         outline: none;
@@ -56,6 +56,11 @@ ul a{
         color:white;
         font-size: 26px;
        }
+
+ul{
+    display:flex;
+    flex-direction: column;
+}
 
 .contenedor{
  /* border:4px solid red;*/
@@ -156,14 +161,10 @@ padding-top: 60px;
 }
 
 
-ul a{
- outline: none;
- text-decoration:none;
- padding:10px;
- text-align: center;
-float:right;
-color:white;
-font-size: 26px;
+ul{
+    display:flex;
+    flex-direction: row;
+    float:right;
 }
 
 ul a:hover{
