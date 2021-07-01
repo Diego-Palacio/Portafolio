@@ -33,7 +33,10 @@ else{
 
 seleccionSeccion=()=>{
     
-    desplegarMenu();
+    if(ancho<=800){
+        desplegarMenu();
+    }
+    
 
 }
 
