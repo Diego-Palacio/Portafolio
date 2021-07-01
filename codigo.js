@@ -23,8 +23,6 @@ desplegarMenu =()=>{
 if(!estado){
      nav.style.marginLeft=total+"px";
      estado=true;
-     alert(total)
-    
 }
 else{
     nav.style.marginLeft="-400px";
@@ -33,5 +31,9 @@ else{
 
 }
 
+seleccionSeccion=()=>{
+    
+    desplegarMenu();
 
+}
 
