@@ -89,6 +89,7 @@ ul{
 /*position:relative;*/
 padding-top: 60px;
 
+
 }   
 
 .nombre{
@@ -135,8 +136,15 @@ padding-top: 60px;
 
  
  .contenedor_sobremi{
-    height: 200px
+     border:1px solid red;
+    height: 700px;
  }
+
+ .perfilProfesional h1{
+     border-bottom: 2px solid #1f236d;
+    
+ }
+
 /*
  .contenedor_sobremi2{
    height: 25%;
@@ -144,19 +152,24 @@ padding-top: 60px;
 */
 
 .c{
-    height: 50%;
+    height: 1800px;
 }
-
 
 .perfilProfesional{
      text-align: center;
      color:white;  
      display:flex;
      flex-direction: column;
-     margin:  50% auto ;
+     margin:  25% auto ;
      justify-content: center;
      align-items: center;
+    
 }
+
+.contenedor_sobremi2{
+    border:1px solid white;
+    height: 700px;
+ }
 
 
 
