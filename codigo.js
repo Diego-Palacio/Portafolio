@@ -17,8 +17,9 @@ escribirNombre();
 let estado=false;
 var ancho = window.innerWidth;
 let total= ancho-200;
+var alto= window.innerHeight;
 desplegarMenu =()=>{
- 
+    
    
     const nav= document.getElementById("nav");
 if(!estado){
@@ -47,3 +48,21 @@ seleccionSeccion=()=>{
 
 }
 
+
+tamañoSecciones=()=>{
+    alert(alto)
+        /*
+         id="contenedor_inicio"
+         id="contenedor_sobremi"
+         id="contenedor_sobremi2"
+        */ 
+         const inicio= document.getElementById("contenedor_inicio");
+         const s1= document.getElementById("contenedor_sobremi");
+         const s2= document.getElementById("contenedor_sobremi2");
+
+         inicio.style.height=alto+"px";
+         s1.style.height=alto+"px";
+         s2.style.height=alto+"px";
+}
+
+tamañoSecciones()

@@ -200,6 +200,17 @@ ul{
     float:right;
 }
 
+ul a{
+    outline: none;
+    text-decoration:none;
+    padding:10px;
+    text-align: center;
+    float: left;
+    color:white;
+    font-size: 26px;
+    border: none;
+   }
+
 ul a:hover{
     text-decoration :2px underline white;
     text-underline-position: under;
@@ -207,7 +218,7 @@ ul a:hover{
 
 nav{
 background: #0c102e;
-border-bottom: 1px solid #1f236d;;
+border-bottom: 1px solid #1f236d;
 width: 100%;
 position: fixed;
 margin: 0px;
