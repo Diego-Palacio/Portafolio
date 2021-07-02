@@ -13,23 +13,30 @@ setTimeout(escribirNombre,speed);
 escribirNombre();
 
 /*Funcion para que al apretar en el icono de menu se despliege los submenu*/
+
 let estado=false;
 var ancho = window.innerWidth;
 let total= ancho-300;
 desplegarMenu =()=>{
  
+   
     const nav= document.getElementById("nav");
-
 if(!estado){
-     nav.style.marginLeft=total+"px";
+    nav.style.animation=("aparecer 1s")
+    nav.style.marginLeft=total+"px";
+    
      estado=true;
 }
 else{
-    nav.style.marginLeft="-400px";
+    nav.style.animation=("desaparecer 1s")
+  setTimeout(() => {
+        nav.style.marginLeft=ancho+"px";
+  }, 800);
     estado=false;
 }
 
 }
+
 
 seleccionSeccion=()=>{
     
