@@ -16,7 +16,7 @@ escribirNombre();
 
 let estado=false;
 var ancho = window.innerWidth;
-let total= ancho-300;
+let total= ancho-200;
 desplegarMenu =()=>{
  
    

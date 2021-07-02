@@ -22,12 +22,12 @@ body{
 
 .menu{
     display:block;
-    background:#0c102e; 
+   /* background:#0c102e; */
     width: 100%;
     font-size: 26px;
     padding: 10px;
     position: fixed;
-    border-bottom: 1px solid #1f236d;
+   /* border-bottom: 1px solid #1f236d;*/
 }
 
 .menuicon{
@@ -41,12 +41,11 @@ body{
 
 nav{
     background: #0c102e;
-    border-bottom: 1px solid #1f236d;
-    border-right: 1px solid #1f236d;;
-    width: 300px;
+    border: 1px solid #1f236d;
+    width: 200px;
     position: absolute;
     margin-left: -100%;
-    margin-top: 61px;
+    margin-top: 58px;
     position: fixed;
    
      }
