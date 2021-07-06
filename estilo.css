@@ -129,6 +129,7 @@ padding-top: 60px;
  .contenedor_sobremi{
 border:1px solid red;
 
+
  }
 
 .contenedor_sobremi2{
@@ -153,10 +154,11 @@ border:1px solid red;
      justify-content: center;
      align-items: center;
      width: 85%;
-    
-    
-    
-    
+     margin-top: 20%;
+}
+
+.proyectos{
+    margin-top:20%;
 }
 
 
@@ -183,6 +185,7 @@ border:1px solid red;
      display: flex;
      margin: auto ;
      flex-direction: column;
+     margin-top: 10%;
    
  }
 
