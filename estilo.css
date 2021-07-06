@@ -178,7 +178,7 @@ border:1px solid red; }
 }
 
  form{
-     width:50%;
+     width:75%;
      display: flex;
      margin: auto;
      flex-direction: column;
