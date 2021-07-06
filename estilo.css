@@ -178,7 +178,7 @@ border:1px solid red; }
 }
 
  form{
-     width:600px;
+     width:50%;
      display: flex;
      margin: auto;
      flex-direction: column;
