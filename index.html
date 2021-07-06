@@ -8,10 +8,6 @@
 </head>
 <body>
 
-    <!-- CONTENEDOR ABSOLUTO -->
-    <div class="c">
-    
-
 
      <!--NAV -->
     <header>
@@ -20,7 +16,7 @@
         </div>
         <nav id="nav">
             <ul> 
-                 <a href="#contenedor_sobremi" onclick="seleccionSeccion()"> Contacto</a>
+                 <a href="#contenedor_contacto" onclick="seleccionSeccion()"> Contacto</a>
                  <a href="#contenedor_sobremi2" onclick="seleccionSeccion()">  Proyectos</a>
                  <a href="#contenedor_sobremi" onclick="seleccionSeccion()"> Sobre mi</a>
                  <a href="#contenedor_inicio" onclick="seleccionSeccion()"> Inicio</a>
@@ -59,9 +55,12 @@
       <div id="contenedor_sobremi" class="contenedor_sobremi">
 
         <div class=perfilProfesional>
-        <h1>PERFIL PROFESIONAL</h1>
+        <h1>ACERCA DE MÍ</h1>
         <br>
-        <h2> Estudiante universitario , en busca de retos laborales,donde pueda aplicar y expandir mis conocimientos.</h2>
+        <h3> Estudiante universitario , en busca de retos laborales, donde pueda aplicar y expandir mis conocimientos.<br>
+           Estoy constantemente aprendiendo sobre tecnologias de manera autodidacta, me siento comodo trabajando en equipo , busco siempre la solucion mas optima para resolver algun problema y soy alguien con mucha imaginacion en cuanto
+          al diseño.
+        </h3>
         </div>  
 
       </div>
@@ -73,16 +72,35 @@
     <!--  CONTENEDOR PROYECTOS-->  
         <div class="contenedor_sobremi2" id="contenedor_sobremi2">
 
-              <h2> aklsjdlkasjdlaksjdlaaksdj </br> jsdhajlsdhadlhasd</h2>
+          <h1>PROYECTOS</h1>
 
         </div>
     <!-- FIN CONTENEDOR PROYECTOS-->
 
+
+ <!--  CONTENEDOR CONTACTO-->  
+ <div class="contenedor_contacto" id="contenedor_contacto">
+
+ 
+
+  
+  <form>
+      <h1>CONTACTO</h1>
+      <input type="text" placeholder="Ingrese su nombre"/>
+      <input type="email" placeholder="Ingrese su email"/>
+      <input class="mensaje" type="text" placeholder="Ingrese su mensaje"/>
+      <input class="enviar-email" type="button" value="Enviar"/>
+    
+  </form>
+
+</div>
+<!-- FIN CONTENEDOR CONTACTO-->
+
+
         <!-- IMPORTO JS-->
     <script type="text/javascript" src="codigo.js"> </script>
   
-    </div>
-      <!-- FIN CONTENEDOR ABSOLUTO -->
+  
 
 </body>
 </html>

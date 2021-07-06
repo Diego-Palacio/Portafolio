@@ -133,45 +133,82 @@ padding-top: 60px;
      color:white;
  }
 
- 
  .contenedor_sobremi{
-     border:1px solid red;
-    height: 700px;
+border:1px solid red; }
+
+.contenedor_sobremi2{
+    border: 1px solid green;
  }
 
- .perfilProfesional h1{
-     border-bottom: 2px solid #1f236d;
-    
+ .contenedor_contacto{
+    border: 1px solid red;
  }
 
-/*
- .contenedor_sobremi2{
-   height: 25%;
-}
-*/
-
-.c{
-    height: 1800px;
-}
+ .perfilProfesional h1,.contenedor_contacto h1{
+     border-bottom: 2px dashed #262daa;
+ }
 
 .perfilProfesional{
      text-align: center;
      color:white;  
      display:flex;
      flex-direction: column;
-     margin:  25% auto ;
+     margin-top: 25%;
      justify-content: center;
      align-items: center;
     
 }
 
-.contenedor_sobremi2{
-    border:1px solid white;
-    height: 700px;
+
+ .contenedor_sobremi2 h1 ,.contenedor_contacto h1{
+     text-align: center;
+     color:white;
+     margin-top: 25%;
  }
 
+ .contenedor_contacto h1{
+     margin-bottom: 20px;
+     animation: izquierda 1s
+ }
 
+@keyframes izquierda{
+    from{
+        margin-left: 75%;
+    }
+}
 
+ form{
+     width:600px;
+     display: flex;
+     margin: auto;
+     flex-direction: column;
+ }
+
+  input{
+    margin-top: 18px;
+    height: 26px;
+    outline: none;
+ }
+
+ .mensaje{
+    height: 120px;
+    margin-bottom: 12px;
+ }
+
+ .enviar-email{
+     width: 80px;
+     margin: auto;
+     border: none;
+     color:white;
+     background: #1f236d;
+ }
+
+ .enviar-email:hover{
+     background: #22299d;
+     border: 1px solid white;
+ }
+
+ /*DISEÑO RESPONSIVO, CUANDO EL DISPOSITIVO SEA MAYOR >= 800*/
 @media screen and (min-width:800px) {
    
 .contenedor-fotocv{
