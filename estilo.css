@@ -138,6 +138,7 @@ border:1px solid red;
 
  .contenedor_contacto{
     border: 1px solid red;
+    height: 400px;
  }
 
  .perfilProfesional h1,.contenedor_contacto h1{
@@ -150,15 +151,18 @@ border:1px solid red;
      color:white;  
      display:flex;
      flex-direction: column;
-     margin: auto;
      justify-content: center;
      align-items: center;
      width: 85%;
-     margin-top: 20%;
+     /*margin-top: 20%;*/
+     margin:auto;
+     height: 800px;
 }
 
 .proyectos{
-    margin-top:20%;
+    /*margin-top:20%;*/
+    margin:auto;
+    height: 800px;
 }
 
 
@@ -185,7 +189,8 @@ border:1px solid red;
      display: flex;
      margin: auto ;
      flex-direction: column;
-     margin-top: 10%;
+     /*margin-top: 10%;   */
+    
    
  }
 

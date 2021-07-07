@@ -66,4 +66,3 @@ tamañoSecciones=()=>{
          s3.style.height=alto+"px";
 }
 
-tamañoSecciones()
