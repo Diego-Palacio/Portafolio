@@ -18,6 +18,7 @@ body{
     background-repeat: no-repeat;
     background-position: 58%;
     background-size: 320px;
+  
 }
 
 .menu{
@@ -128,36 +129,37 @@ height: 600px;
  }
 
  .contenedor_sobremi{
-border:1px solid red;
-
+  border:1px solid rgba(255, 0, 0, 0);
+  height: 600px;
 
  }
 
 .contenedor_sobremi2{
-    border: 1px solid green;
+    border: 1px solid rgba(0, 128, 0, 0);
  }
 
  .contenedor_contacto{
-    border: 1px solid red;
+    border: 1px solidrgba(255, 0, 0, 0)d;
     height: 600px;
  }
 
  .perfilProfesional h1,.contenedor_contacto h1{
-     border-bottom: 2px dashed #262daa;
+   /*  border-bottom: 2px dashed #262daa;*/
+   animation: izquierda 1s;
  }
 
 .perfilProfesional{
   
      text-align: center;
      color:white;  
+     background: rgb(20, 28, 68);
      display:flex;
      flex-direction: column;
-    /* justify-content: center;
-     align-items: center;*/
+     border-radius: 10px; 
      width: 85%;
      margin:auto;
      margin-top: 10%;
-     height: 600px;
+     height: 400px;
 }
 
 .proyectos{  
@@ -223,7 +225,7 @@ border:1px solid red;
 
  .enviar-email:hover{
      background: #22299d;
-     border: 1px solid white;
+     /*border: 1px solid white;*/
  }
 
  /*DISEÑO RESPONSIVO, CUANDO EL DISPOSITIVO SEA MAYOR >= 800*/
