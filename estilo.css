@@ -41,7 +41,7 @@ body{
     height: 5px;
     border-radius:5px;
     position:fixed;
-    transition: all 400ms ease;
+    transition: all 500ms ease;
     left:10px;
     top:10px;
 }
@@ -78,6 +78,7 @@ nav{
     margin-left: -100%;
    /*margin-top: 58px;*/
     position: fixed;
+    top:0px;
    
      }
 
@@ -224,6 +225,7 @@ height: 600px;
      width:100%;
      position:fixed;
      z-index:-1;
+   
  }
 
 

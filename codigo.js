@@ -52,7 +52,7 @@ seleccionSeccion=()=>{
         btnMenu.checked=false;
     }
     }
-    //#btn-menu:checked 
+  
 
 
 }
