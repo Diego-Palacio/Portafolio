@@ -21,24 +21,51 @@ body{
   
 }
 
-.menu{
-    display:block;
-   /* background:#0c102e; */
-    width: 100%;
-    font-size: 26px;
-    padding: 10px;
-    position: fixed;
-   /* border-bottom: 1px solid #1f236d;*/
+
+#btn-menu{
+    position:fixed;
+    display: none;
 }
 
-.menuicon{
+.lbl-menu{
     width: 40px;
     height: 40px;
-    /*float: right;*/
-    padding-right: 10px;
-    position: absolute;
-    left: 2px;
-    top: 2px;
+    position:relative;
+    cursor: pointer;
+}
+
+.lbl-menu #spn1,#spn2,#spn3{
+    position:absolute;
+    background:white;
+    width: 50px;
+    height: 5px;
+    border-radius:5px;
+    position:fixed;
+    transition: all 400ms ease;
+    left:10px;
+    top:10px;
+}
+
+#spn2{
+    top:20px;
+}
+
+#spn3{
+    top:30px;
+}
+
+#btn-menu:checked ~ .lbl-menu #spn1{
+    transform: rotate(140deg);
+    top: 20px;
+}
+
+#btn-menu:checked ~ .lbl-menu #spn2{
+    opacity: 0;
+}
+
+#btn-menu:checked ~ .lbl-menu #spn3{
+    transform: rotate(-140deg);
+    top: 20px;
 }
 
 

@@ -50,20 +50,5 @@ seleccionSeccion=()=>{
 }
 
 
-tamañoSecciones=()=>{
-   
-        /*
-        El 40 es del weight del nav
-        */ 
-         const inicio= document.getElementById("contenedor_inicio");
-         const s1= document.getElementById("contenedor_sobremi");
-         const s2= document.getElementById("contenedor_sobremi2");
-         const s3= document.getElementById("contenedor_contacto");
 
-
-         inicio.style.height=alto-40+"px";
-         s1.style.height=alto+"px";
-         s2.style.height=alto+"px";
-         s3.style.height=alto+"px";
-}
 

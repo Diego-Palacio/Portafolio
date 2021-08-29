@@ -8,14 +8,18 @@
 </head>
 <body>
 
-    <!--Contiene las particulas-->
-   <div id="particles-js"></div>
+    <!--Contiene las particulas  <div id="particles-js"></div>-->
+ 
 
      <!--NAV -->
     <header>
-        <div class="menu" id="menujs" >
-          <a onclick="desplegarMenu()" class="btn-menu"><img class="menuicon"src="menuicon.svg"></a>
-        </div>
+        <input onclick="desplegarMenu()" type="checkbox" id="btn-menu"/>
+        <label for="btn-menu" class="lbl-menu">
+          <span id="spn1"></span>
+          <span id="spn2"></span>
+          <span id="spn3"></span>
+        </label>
+
         <nav id="nav">
             <ul> 
                  <a href="#contenedor_contacto" onclick="seleccionSeccion()"> Contacto</a>
