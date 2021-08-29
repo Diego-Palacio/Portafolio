@@ -25,6 +25,7 @@ desplegarMenu =()=>{
 if(!estado){
     nav.style.animation=("aparecer 1s")
     nav.style.marginLeft=total+"px";
+    nav.style.height=alto+"px";
     
      estado=true;
 }

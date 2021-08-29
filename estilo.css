@@ -34,7 +34,7 @@ body{
 .menuicon{
     width: 40px;
     height: 40px;
-    float: right;
+    /*float: right;*/
     padding-right: 10px;
 }
 
@@ -44,9 +44,9 @@ nav{
     background: #0c102e;
     border: 1px solid #1f236d;
     width: 200px;
-    position: absolute;
+    position: relative;
     margin-left: -100%;
-    margin-top: 58px;
+   /*margin-top: 58px;*/
     position: fixed;
    
      }
