@@ -41,11 +41,19 @@ else{
 
 
 seleccionSeccion=()=>{
-    
+   var btnMenu=document.getElementById("btn-menu");
+
     if(ancho<=800){
         desplegarMenu();
+        if(btnMenu.checked==false){
+            btnMenu.checked=true;
+        }
+    else{
+        btnMenu.checked=false;
     }
-    
+    }
+    //#btn-menu:checked 
+
 
 }
 
