@@ -19,15 +19,15 @@ var ancho = window.innerWidth;
 let total= ancho-200;
 var alto= window.innerHeight;
 desplegarMenu =()=>{
-    
-   
     const nav= document.getElementById("nav");
 if(!estado){
     nav.style.animation=("aparecer 1s")
     nav.style.marginLeft=total+"px";
     nav.style.height=alto+"px";
     
+    
      estado=true;
+     
 }
 else{
     nav.style.animation=("desaparecer 1s")
@@ -39,7 +39,7 @@ else{
 
 }
 
-
+//cuando se selecciona una seccion se cierra y el btn-menu hace su transicion
 seleccionSeccion=()=>{
    var btnMenu=document.getElementById("btn-menu");
 
