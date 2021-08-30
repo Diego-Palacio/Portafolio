@@ -167,12 +167,15 @@ height: 600px;
 
 .contenedor_sobremi2{
     border: 1px solid rgba(0, 128, 0, 0);
-    height: 600px;
+    /*height: 600px;*/
+    
+    
  }
 
  .contenedor_contacto{
     border: 1px solid rgba(255, 0, 0, 0);
     height: 600px;
+
   
  }
 
@@ -203,10 +206,13 @@ height: 600px;
 }
 
 .proyectos{  
-    margin:auto;
-    margin-top:10%;
-    height: 600px;
+    display: flex;
+    flex-direction: column;
+    /*height: 600px;*/
+   
+   
 }
+
 
 .proyectos img{
     width: 450px;
@@ -214,7 +220,7 @@ height: 600px;
 }
 
 .proyectos .card{
-    width: 350px;
+    width: 250px;
     height: 400px;
     background:white;
    /* background-image: url(web-gestion-reservas.png);
@@ -222,6 +228,8 @@ height: 600px;
     background-position-x: -330px;*/
     display: flex;
     margin: auto;
+    margin-top: 20px;
+    border: 2px solid red;
 }
 
  .contenedor_sobremi2 h1 ,.contenedor_contacto h1{
@@ -348,7 +356,29 @@ margin: 0px;
    
 }
 
+.proyectos{  
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    margin-top: 150px;
+   
+}
+
+.proyectos .card{
+    width: 250px;
+    height: 350px;
+    background:white;
+   /* background-image: url(web-gestion-reservas.png);
+    background-size: cover;
+    background-position-x: -330px;*/
+    display: flex;
+    margin-top: 20px;
+   
+    border: 2px solid red;
+}
  
+
+
 }
 
 
