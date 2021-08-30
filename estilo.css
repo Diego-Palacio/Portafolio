@@ -220,17 +220,20 @@ height: 600px;
 }
 
 .proyectos .card{
-    width: 250px;
-    height: 400px;
+    width: 400px;
+    height: 250px;
     background:white;
-   /* background-image: url(web-gestion-reservas.png);
-    background-size: cover;
+    /*background-image: url(web-gestion-reservas.png);
+    
     background-position-x: -330px;*/
+    background-size: cover;
     display: flex;
     margin: auto;
     margin-top: 20px;
     border: 2px solid red;
 }
+
+
 
  .contenedor_sobremi2 h1 ,.contenedor_contacto h1{
      text-align: center;
@@ -365,12 +368,14 @@ margin: 0px;
 }
 
 .proyectos .card{
-    width: 250px;
-    height: 350px;
-    background:white;
+    width: 400px;
+    height: 250px;
+    background:white;  
+    background-position-x: -95px;
+    background-size: cover;
    /* background-image: url(web-gestion-reservas.png);
     background-size: cover;
-    background-position-x: -330px;*/
+  
     display: flex;
     margin-top: 20px;
    
