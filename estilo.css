@@ -314,6 +314,13 @@ height: 600px;
         }
 
 
+        
+.lbl-menu{
+
+    display: none;
+}
+
+
 .menu{
     display: none;
 }
@@ -323,6 +330,7 @@ ul{
     display:flex;
     flex-direction: row;
     float:right;
+    margin:0;
 }
 
 ul a{
@@ -334,6 +342,7 @@ ul a{
     color:white;
     font-size: 26px;
     border: none;
+    margin-right: 16px;
    }
 
 ul a:hover{
@@ -344,10 +353,13 @@ ul a:hover{
 nav{
 background: #0c102e;
 border-bottom: 1px solid #1f236d;
+border-left: none;
+border-right: none;
 width: 100%;
 position: fixed;
 margin: 0px;
-
+top:0;
+height: 50px;
  }
 
 
