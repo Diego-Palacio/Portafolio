@@ -7,6 +7,11 @@ body{
      background-color:  #141635;
 }
 
+h1{
+    font-family: "Mitr",sans-serif;
+    font-size: 30px;
+}
+
 .contenedor-fotocv {
     display: flex;
     margin: auto;
@@ -106,6 +111,7 @@ ul a{
         font-size: 26px;
         border-bottom: 1px solid #1f236d;
         border-top: 1px solid #1f236d;
+        font-family: "Mitr",sans-serif;
        }
 
 
@@ -119,7 +125,7 @@ height: 600px;
 }   
 
 .nombre{
-    font-size: 32px;
+    font-size: 42px;
    color:white;
    font-style:oblique;
    
@@ -160,20 +166,20 @@ height: 600px;
 
  .contenedor_sobremi{
   border:1px solid rgba(255, 0, 0, 0);
-  height: 600px;
+ /* height: 600px;*/
 
  }
 
 .contenedor_sobremi2{
     border: 1px solid rgba(0, 128, 0, 0);
-    /*height: 600px;*/
+    height: 600px;
     
     
  }
 
  .contenedor_contacto{
     border: 1px solid rgba(255, 0, 0, 0);
-    height: 600px;
+  /* height: 600px;*/
 
   
  }
@@ -200,7 +206,8 @@ height: 600px;
 
 .perfilProfesional h3{
     font-size: 18px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;*/
+    font-family:"Kanit",sans-serif;
     font-weight: bold;
 }
 
@@ -216,20 +223,19 @@ height: 600px;
 .proyectos img{
     width: 450px;
     height: 300px;
+   
 }
 
 .proyectos .card{
     width: 300px;
     height: 250px;
     background:white;
-    /*background-image: url(web-gestion-reservas.png);
-    
-    background-position-x: -330px;*/
-    background-size: cover;
     display: flex;
     margin: auto;
     margin-top: 20px;
     border: 2px solid red;
+    background-size: cover;
+
 }
 
 
@@ -330,7 +336,7 @@ ul{
     display:flex;
     flex-direction: row;
     float:right;
-    margin:0;
+    margin:4px;
 }
 
 ul a{
@@ -340,9 +346,10 @@ ul a{
     text-align: center;
     float: left;
     color:white;
-    font-size: 26px;
+    font-size: 20px;
     border: none;
-    margin-right: 16px;
+    margin-right: 14px;
+    font-family: "Mitr",sans-serif;
    }
 
 ul a:hover{
@@ -380,17 +387,13 @@ height: 50px;
 
 .proyectos .card{
     width: 400px;
-    height: 250px;
+    height: 400px;
     background:white;  
-    background-position-x: -95px;
-    background-size: cover;
-   /* background-image: url(web-gestion-reservas.png);
-    background-size: cover;*/
-  
     display: flex;
     margin-top: 20px;
-   
     border: 2px solid red;
+    border-radius: 10%;
+    background-size: cover;
 }
  
 
